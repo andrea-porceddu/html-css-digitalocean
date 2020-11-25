@@ -12,6 +12,10 @@ ul {
 .bl-secondary-color {
   color: #031c4e;
 }
+
+.bl-li-bolder {
+  font-weight: bolder;
+}
 /* utility classes */
 
 .bl-jumbotron {
@@ -43,4 +47,16 @@ ul {
 
 .bl-server-speed {
   border-bottom: 1px solid #fff;
+}
+
+.bl-rockerbox {
+  margin: 0 auto;
+}
+
+.bl-get-started-now {
+  background-color: #0035ae;
+}
+
+.bl-get-started-now h2 {
+  color: #fff;
 }
