@@ -26,3 +26,21 @@ ul {
   border-left: 1px solid #ccc;
   text-align: left;
 }
+
+.bl-customers-service {
+  height: 400px;
+  background-color: #031b4e;
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+}
+
+.bl-customers-service h2 {
+  text-align: center;
+}
+
+.bl-server-speed {
+  border-bottom: 1px solid #fff;
+}
