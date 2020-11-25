@@ -14,7 +14,13 @@ ul {
 }
 
 .bl-li-bolder {
+  color: #fff;
   font-weight: bolder;
+}
+
+.bl-ul-bordered {
+  border-left: 1px solid #ccc;
+  text-align: left;
 }
 /* utility classes */
 
@@ -24,11 +30,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.bl-ul-bordered {
-  border-left: 1px solid #ccc;
-  text-align: left;
 }
 
 .bl-customers-service {
@@ -45,18 +46,29 @@ ul {
   text-align: center;
 }
 
+.bl-server-abbr span {
+  display: inline-block;
+}
+
 .bl-server-speed {
   border-bottom: 1px solid #fff;
 }
 
 .bl-rockerbox {
-  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .bl-get-started-now {
   background-color: #0035ae;
+  padding-bottom: 20px;
 }
 
 .bl-get-started-now h2 {
   color: #fff;
+}
+
+.bl-footer {
+  color: #9ca4b6;
+  background-color: #031c4e;
+  padding-top: 20px;
 }
