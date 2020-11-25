@@ -1,0 +1,25 @@
+/* common */
+a {
+
+}
+/* common */
+
+/* utility classes */
+.bl-primary-color {
+  color: #006aff;
+}
+
+.bl-secondary-color {
+  color: #031c4e;
+}
+/* utility classes */
+
+.bl-jumbotron {
+  height: 500px;
+  background-image: url("../img/bg-home-hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for team and businesses, wheter you're running one virtual machine or ten thousand.</p> */
