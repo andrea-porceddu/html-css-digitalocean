@@ -1,6 +1,6 @@
 /* common */
-a {
-
+ul {
+  list-style: none;
 }
 /* common */
 
@@ -22,4 +22,7 @@ a {
   background-position: center;
 }
 
-/* <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for team and businesses, wheter you're running one virtual machine or ten thousand.</p> */
+.bl-ul-bordered {
+  border-left: 1px solid #ccc;
+  text-align: left;
+}
