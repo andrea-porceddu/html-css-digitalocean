@@ -12,24 +12,9 @@ ul {
 .bl-secondary-color {
   color: #031c4e;
 }
-
-.bl-li-bolder {
-  color: #fff;
-  font-weight: bolder;
-}
-
-.bl-ul-bordered {
-  border-left: 1px solid #ccc;
-  text-align: left;
-}
 /* utility classes */
 
-/* .bl-navbar {
-  margin-bottom: 0;
-} */
-
 .bl-jumbotron {
-  height: 400px;
   background-image: url("../img/bg-home-hero.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,25 +31,22 @@ ul {
   color: #bbcbfe;
 }
 
-.bl-jumbotron-form {
-  height: 300px;
-  width: 400px;
+.bl-form {
   background-color: #fff;
   padding: 20px;
-  margin-top: 40px;
   border-radius: 8px;
 }
 
-.bl-jumbotron-form span {
+.bl-form span {
   display: block;
   font-size: 20px;
 }
 
-.bl-jumbotron-form span:last-child {
+.bl-form span:last-child {
   font-size: 12px;
 }
 
-.bl-jumbotron-form button {
+.bl-form button {
   height: 30px;
   display: block;
   border: none;
@@ -84,17 +66,18 @@ ul {
 }
 
 .bl-btn-google-sign-up {
+  background-color: #fff;
   color: #626262;
   box-shadow: 2px 2px 2px #888888;
-  transition: all 0.3s ease 0s;
 }
 
 .bl-btn-google-sign-up:hover {
-  background-color: #d8d8d8;
+  background-color: #f3f5f9;
+  transition: all 0.3s ease 0s;
 }
 
+/* partners */
 .bl-partners-row {
-  height: 160px;
   background-color: #f3f5f9;
   padding: 20px 0;
 }
@@ -102,6 +85,69 @@ ul {
 .bl-partners-row span {
   text-transform: uppercase;
   color: #6f7b97;
+}
+/* partners */
+
+/* deploy */
+.bl-deploy-row h2, .bl-deploy-row h3, .bl-deploy-row p {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.bl-deploy-box h3 {
+  font-size: 20px;
+}
+
+.bl-deploy-row p, .bl-deploy-box p {
+  font-size: 16px;
+  color: #5c6a88;
+}
+/* deploy */
+
+.bl-dev-designed-row {
+  background-color: #f3f5f9;
+}
+
+.bl-dev-designed-row h2 {
+  margin-top: 100px;
+}
+
+.bl-dev-designed-row p {
+  color: #5c6a88;
+  font-size: 18px;
+}
+
+.bl-dev-designed-row span {
+  display: block;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.bl-dev-designed-row img {
+  height: 250px;
+  margin-top: 100px;
+}
+
+.bl-carousel-dots {
+  margin-bottom: 100px;
+}
+
+/******* Trying to change icon on hover *******
+.bl-carousel-dots a i:hover {
+  content: "\f111";
+} */
+
+.bl-business-features-row {
+  padding: 40px 0;
+}
+
+.bl-business-features-row h2 {
+  margin-bottom: 40px;
+}
+
+.bl-business-box {
+  margin: 20px 0;
 }
 
 
