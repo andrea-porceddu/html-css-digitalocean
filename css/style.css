@@ -99,11 +99,22 @@ ul {
 }
 
 .bl-deploy-row p, .bl-deploy-box p {
-  font-size: 16px;
+  font-size: 18px;
   color: #5c6a88;
+}
+
+.bl-deploy-box p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.bl-deploy-left-menu ul {
+  border-left: 1px solid #ccc;
+  margin: 20px 0;
 }
 /* deploy */
 
+/* designed for developers */
 .bl-dev-designed-row {
   background-color: #f3f5f9;
 }
@@ -137,7 +148,9 @@ ul {
 .bl-carousel-dots a i:hover {
   content: "\f111";
 } */
+/* designed for developers */
 
+/* The future your business needs */
 .bl-business-features-row {
   padding: 40px 0;
 }
@@ -147,20 +160,13 @@ ul {
 }
 
 .bl-business-box {
+  text-align: left;
   margin: 20px 0;
 }
+/* The future your business needs */
 
-
-
-
-
-
-
-
-
-
+/* service your customers */
 .bl-customers-service {
-  height: 400px;
   background-color: #031b4e;
   background-image: url("../img/bg-map.svg");
   background-repeat: no-repeat;
@@ -172,14 +178,7 @@ ul {
 .bl-customers-service h2 {
   text-align: center;
 }
-
-.bl-server-abbr span {
-  display: inline-block;
-}
-
-.bl-server-speed {
-  border-bottom: 1px solid #fff;
-}
+/* service your customers */
 
 .bl-rockerbox {
   padding-bottom: 20px;
