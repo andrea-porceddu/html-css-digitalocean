@@ -126,6 +126,7 @@ ul {
 .bl-dev-designed-row p {
   color: #5c6a88;
   font-size: 18px;
+  padding: 0 18px;
 }
 
 .bl-dev-designed-row span {
@@ -180,10 +181,44 @@ ul {
 }
 /* service your customers */
 
-.bl-rockerbox {
-  padding-bottom: 20px;
+/* development teams */
+.bl-dev-teams-row {
+  background-color: #f3f5f9;
 }
 
+.bl-dev-teams-row h2 {
+  text-align: center;
+  font-weight: bolder;
+  color: #031c4e;
+  margin-top: 50px;
+}
+
+.bl-rockerbox {
+  background-color: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.bl-rockerbox img {
+  margin: 10px 0;
+}
+
+.bl-rockerbox p {
+  font-size: 18px;
+  padding: 20px 50px;
+}
+
+.bl-rockerbox span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.bl-rockerbox span:first-child {
+  color: #031c4e;
+}
+/* development teams */
+
+/* get started */
 .bl-get-started-now {
   background-color: #0035ae;
   padding-bottom: 20px;
@@ -192,9 +227,37 @@ ul {
 .bl-get-started-now h2 {
   color: #fff;
 }
+.bl-create-btn {
+  height: 30px;
+  background-color: #fff;
+  color: #0035ae;
+  border: none;
+  border-radius: 5px;
+}
+/* get started */
 
+/* footer */
 .bl-footer {
   color: #9ca4b6;
   background-color: #031c4e;
   padding-top: 20px;
 }
+
+.bl-footer img {
+  margin-bottom: 20px;
+}
+
+.bl-footer span {
+  display: block;
+}
+
+.bl-social-icons span {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.bl-footer-list ul li:first-child {
+  color: #fff;
+  font-weight: bolder;
+}
+/* footer */
