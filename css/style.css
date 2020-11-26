@@ -24,12 +24,73 @@ ul {
 }
 /* utility classes */
 
+/* .bl-navbar {
+  margin-bottom: 0;
+} */
+
 .bl-jumbotron {
-  height: 500px;
+  height: 400px;
   background-image: url("../img/bg-home-hero.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.bl-jumbotron h1 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.bl-jumbotron p {
+  font-size: 20px;
+  color: #bbcbfe;
+}
+
+.bl-jumbotron-form {
+  height: 300px;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.bl-jumbotron-form span {
+  display: block;
+  font-size: 20px;
+}
+
+.bl-jumbotron-form span:last-child {
+  font-size: 12px;
+}
+
+.bl-jumbotron-form button {
+  height: 30px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bl-btn-create-account {
+  background-color: #579aff;
+  color: #fff;
+}
+
+.bl-btn-create-account:hover {
+  background-color: #006aff;
+  transition: all 0.3s ease 0s;
+}
+
+.bl-btn-google-sign-up {
+  color: #626262;
+  box-shadow: 2px 2px 2px #888888;
+  transition: all 0.3s ease 0s;
+}
+
+.bl-btn-google-sign-up:hover {
+  background-color: #d8d8d8;
 }
 
 .bl-customers-service {
