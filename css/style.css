@@ -97,25 +97,25 @@ ul {
 /* jumbotron */
 
 /* partners */
-.bl-partners-row {
+.bl-partners {
   background-color: #f3f5f9;
   padding: 20px 0;
 }
 
-.bl-partners-row span {
+.bl-partners span {
   text-transform: uppercase;
   color: #6f7b97;
 }
 /* partners */
 
 /* deploy */
-.bl-deploy-row h2 {
+.bl-deploy h2 {
   text-align: center;
   font-weight: bolder;
   color: #031c4e;
 }
 
-.bl-deploy-row p {
+.bl-deploy p {
   text-align: center;
   font-size: 18px;
   color: #5c6a88;
@@ -133,6 +133,10 @@ ul {
   margin-left: 5px;
 }
 
+.bl-deploy-box {
+  margin-bottom: 20px;
+}
+
 .bl-deploy-box img {
   margin-left: 20px;
 }
@@ -140,6 +144,8 @@ ul {
 .bl-deploy-box h3 {
   font-size: 20px;
   margin-left: 20px;
+  font-weight: bolder;
+  color: #031c4e;
 }
 
 .bl-deploy-box p {
@@ -152,23 +158,23 @@ ul {
 /* deploy */
 
 /* designed for developers */
-.bl-dev-designed-row {
+.bl-dev-designed {
   background-color: #f3f5f9;
 }
 
-.bl-dev-designed-row h2 {
+.bl-dev-designed h2 {
   margin-top: 100px;
   color: #031c4e;
   font-weight: bolder;
 }
 
-.bl-dev-designed-row p {
+.bl-dev-designed p {
   color: #5c6a88;
   font-size: 18px;
   padding: 0 18px;
 }
 
-.bl-dev-designed-row span {
+.bl-dev-designed span {
   display: block;
   font-size: 18px;
   margin-top: 20px;
@@ -178,7 +184,7 @@ ul {
   padding: 0 40px;
 }
 
-.bl-dev-designed-row img {
+.bl-dev-designed img {
   height: 250px;
   margin-top: 100px;
 }
@@ -194,12 +200,20 @@ ul {
 /* designed for developers */
 
 /* The future your business needs */
-.bl-business-features-row {
+.bl-business-features {
   padding: 40px 0;
 }
 
-.bl-business-features-row h2 {
+.bl-business-features h2 {
+  color: #031c4e;
+  font-weight: bolder;
   margin-bottom: 40px;
+}
+
+.bl-business-features h3 {
+  color: #031c4e;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .bl-business-box {
@@ -221,14 +235,19 @@ ul {
 .bl-customers-service h2 {
   text-align: center;
 }
+
+.bl-server-speed ul:last-child {
+  text-align: right;
+  padding-right: 10px;
+}
 /* service your customers */
 
 /* development teams */
-.bl-dev-teams-row {
+.bl-dev-teams {
   background-color: #f3f5f9;
 }
 
-.bl-dev-teams-row h2 {
+.bl-dev-teams h2 {
   text-align: center;
   font-weight: bolder;
   color: #031c4e;
