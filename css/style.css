@@ -194,6 +194,8 @@ ul {
 }
 
 .bl-rockerbox {
+  width: 90%;
+  margin: 0 auto;
   background-color: #fff;
   padding: 20px 0;
   margin-bottom: 20px;
@@ -254,6 +256,10 @@ ul {
 .bl-social-icons span {
   display: inline-block;
   margin: 10px 0;
+}
+
+.bl-footer-list {
+  
 }
 
 .bl-footer-list ul li:first-child {
