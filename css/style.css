@@ -13,6 +13,11 @@ ul {
 .bl-secondary-color {
   color: #031c4e;
 }
+
+.bl-carousel-dots {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
 /* utility classes */
 
 /* jumbotron */
@@ -35,7 +40,7 @@ ul {
 
 .bl-form {
   background-color: #fff;
-  padding: 110px 30px;
+  padding: 50px 30px;
   border-radius: 8px;
 }
 
@@ -106,6 +111,10 @@ ul {
   text-transform: uppercase;
   color: #6f7b97;
 }
+
+.bl-partners img {
+  height: auto;
+}
 /* partners */
 
 /* deploy */
@@ -121,7 +130,7 @@ ul {
   color: #5c6a88;
 }
 
-.bl-deploy-left-menu ul {
+.bl-deploy-left-menu {
   margin: 20px 0;
 }
 
@@ -134,7 +143,7 @@ ul {
 }
 
 .bl-deploy-box {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .bl-deploy-box img {
@@ -152,7 +161,6 @@ ul {
   font-size: 16px;
   text-align: left;
   margin-left: 20px;
-  padding-right: 20px;
   color: #5c6a88;
 }
 /* deploy */
@@ -187,10 +195,6 @@ ul {
 .bl-dev-designed img {
   height: 250px;
   margin-top: 100px;
-}
-
-.bl-carousel-dots {
-  margin-bottom: 100px;
 }
 
 /******* Trying to change icon on hover *******
@@ -258,8 +262,7 @@ ul {
   width: 90%;
   margin: 0 auto;
   background-color: #fff;
-  padding: 20px 0;
-  margin-bottom: 20px;
+  padding: 30px 0;
 }
 
 .bl-rockerbox img {
