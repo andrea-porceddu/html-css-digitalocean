@@ -142,17 +142,8 @@ ul {
   margin-left: 5px;
 }
 
-.bl-deploy-box {
-  margin: 20px 0;
-}
-
-.bl-deploy-box img {
-  margin-left: 20px;
-}
-
 .bl-deploy-box h3 {
   font-size: 20px;
-  margin-left: 20px;
   font-weight: bolder;
   color: #031c4e;
 }
@@ -160,7 +151,6 @@ ul {
 .bl-deploy-box p {
   font-size: 16px;
   text-align: left;
-  margin-left: 20px;
   color: #5c6a88;
 }
 /* deploy */
@@ -200,7 +190,7 @@ ul {
 /******* Trying to change icon on hover *******
 .bl-carousel-dots a i:hover {
   content: "\f111";
-} */
+}******* Trying to change icon on hover *******/
 /* designed for developers */
 
 /* The future your business needs */
@@ -226,7 +216,7 @@ ul {
 }
 /* The future your business needs */
 
-/* service your customers */
+/* customers service */
 .bl-customers-service {
   background-color: #031b4e;
   background-image: url("../img/bg-map.svg");
@@ -240,11 +230,14 @@ ul {
   text-align: center;
 }
 
-.bl-server-speed ul:last-child {
-  text-align: right;
-  padding-right: 10px;
+.bl-server-abbr {
+  text-transform: uppercase;
 }
-/* service your customers */
+
+.bl-server-test {
+  text-align: right;
+}
+/* customers service */
 
 /* development teams */
 .bl-dev-teams {
