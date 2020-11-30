@@ -14,7 +14,7 @@ ul {
   color: #031c4e;
 }
 
-.bl-carousel-dots {
+.bl-slider-dots {
   margin-top: 30px;
   margin-bottom: 100px;
 }
@@ -44,30 +44,20 @@ ul {
   border-radius: 8px;
 }
 
-.bl-form span {
-  display: block;
-  font-size: 25px;
+.bl-form h2:first-child {
+  color: #031c4e;
+  font-weight: bolder;
   text-align: center;
 }
 
-.bl-form span:first-child {
-  color: #031c4e;
-  font-weight: bolder;
-}
-
-.bl-form span:nth-child(2) {
+.bl-form h2:nth-child(2) {
   color: #006aff;
   font-weight: bolder;
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.bl-form span:last-child {
-  font-size: 12px;
-  margin-top: 20px;
-}
-
 .bl-form button {
-  height: 30px;
   display: block;
   border: none;
   border-radius: 5px;
@@ -76,8 +66,10 @@ ul {
 }
 
 .bl-btn-create-account {
+  height: 30px;
   background-color: #579aff;
   color: #fff;
+  font-weight: bolder;
 }
 
 .bl-btn-create-account:hover {
@@ -86,14 +78,26 @@ ul {
 }
 
 .bl-btn-google-sign-up {
+  height: 30px;
+  line-height: 30px;
   background-color: #fff;
   color: #626262;
+  font-weight: bolder;
   box-shadow: 2px 2px 2px #888888;
 }
 
 .bl-btn-google-sign-up:hover {
   background-color: #f3f5f9;
   transition: all 0.3s ease 0s;
+}
+
+.bl-btn-google-sign-up img {
+  height: 30px;
+  float: left;
+}
+
+.bl-btn-google-sign-up span:last-child{
+  margin-right: 30px;
 }
 
 .bl-form span:last-child a {
@@ -172,6 +176,34 @@ ul {
   padding: 0 18px;
 }
 
+.bl-slider-inner {
+  margin-top: 100px;
+}
+
+.bl-slider-inner img {
+  width: 70%;
+}
+
+.bl-slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  opacity: 0.5;
+}
+
+.bl-slider-arrow-left {
+  left: 10%;
+}
+
+.bl-slider-arrow-left:hover, .bl-slider-arrow-right:hover {
+  opacity: 1;
+}
+
+.bl-slider-arrow-right {
+  right: 10%;
+}
+
 .bl-dev-designed span {
   display: block;
   font-size: 18px;
@@ -182,10 +214,29 @@ ul {
   padding: 0 40px;
 }
 
-.bl-dev-designed img {
-  height: 250px;
-  margin-top: 100px;
+/* slider bad approach with CSS before and after fa-angle content
+  .bl-slider:before {
+  font-family: "FontAwesome";
+  content: "\f104";
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 50px;
+  font-weight: bolder;
+  opacity: 0.5;
 }
+
+.bl-slider:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  font-size: 50px;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+slider bad approach with CSS before and after fa-angle content */
 
 /******* Trying to change icon on hover *******
 .bl-carousel-dots a i:hover {
